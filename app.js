@@ -91,15 +91,6 @@
     },
     {
         id: 11,
-        link: 'https://iyanuxn.github.io/Noto',
-        linktitle: 'Colab work on Notes web app',
-        repo: 'https://www.github.com/iyanuxn/Noto/',
-        html: '9%',
-        css: '22.6%',
-        js: '68.4%',
-    },
-    {
-        id: 12,
         link: 'https://iyanuxn.github.io/calculator',
         linktitle: 'Calculator web app',
         repo: 'https://www.github.com/iyanuxn/calculator/',
