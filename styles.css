@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Nobile:wght@400;500&family=Playfair+Display:wght@400;500&display=swap');
+
+:root {
+    --ff-playfair-display: 'Playfair Display', sans serif;
+    --ff-nobile: 'Nobile', sans serif;
+    --ff-raleway: 'Raleway', sans serif;
+    --clr-1: #136286;
+    --clr-2: #51b7e6;
+    --clr-3: #ffffff;
+    --clr-4: #e6e6e6;
+    --clr-5: #dddddd;
+    --clr-6: #ffffff;
+    --transition: 0.3s;
+}
+
+body {
+    background-color: var(--clr-5);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    margin: 0vw;
+    font-size: 16px
+}
+
+h1 {
+    font-family: var(--ff-raleway);
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 1vw 0vw
+}
+
+a {
+    color: var(--clr-1);
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+a:hover {
+    color: var(--clr-2);
+    transition: var(--transition)
+}
+
+.container {
+    width: 80vw;
+    height: auto;
+    background-color: var(--clr-4);
+    border-radius: 5vw;
+    margin: 16vw 0vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-part{
+    background-color: var(--clr-4);
+    padding: 5vw 5vw 3vw 5vw;
+    border-radius: 4vw 4vw 0vw 0vw;
+    font-family: var(--ff-nobile);
+    font-weight: 500;
+    font-size: 0.9em;
+}
+
+.image {
+    width: 16vw;
+    height: 16vw;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1vw solid var(--clr-2);
+    border-radius: 50%;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: var(--clr-2)
+}
+
+.profile-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+}
+
+.links ion-icon {
+    font-size: 0.9rem;
+    color: var(--clr-3);
+    margin: 0vw 0vw 0vw 0vw;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    padding: 1vw 0vw 0vw 0vw;
+}
+
+.socials span {
+    cursor: pointer;
+    font-size: 1.5em;
+    margin: 0vw 4vw 0vw 0vw
+}
+
+.socials a {
+    color: var(--clr-3)
+}
+
+.socials a:hover {
+    color: var(--clr-1);
+    transition: var(--transition)
+}
+
+.main {
+    background-color: var(--clr-3);
+    display: flex;
+    flex-direction: column;
+    padding: 5vw;
+    border-radius: 0vw 0vw 4vw 4vw;
+}
+
+.heading {
+    color: var(--clr-6);
+    font-family: var(--ff-raleway);
+    font-size: 1.5em;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 2vw
+}
+
+.pages {
+    display: flex;
+    flex-direction: column;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    padding: 4vw 2vw 2vw 2vw;
+    border-bottom: 0.25vw solid var(--clr-4);
+}
+
+.project-link a {
+    font-size: 1em;
+    font-weight: 500;
+    font-family: var(--ff-raleway);
+    color: var(--clr-2);
+    cursor: pointer
+}
+
+.project-link a:hover {
+    color: var(--clr-6);
+    transition: var(--transition)
+}
+
+.repo-link a {
+    font-size: 0.75em;
+    font-weight: 500;
+    font-family: var(--ff-nobile);
+    color: var(--clr-4);
+    cursor: pointer
+}
+
+.repo-link a:hover {
+    color: var(--clr-1);
+    transition: var(--transition)
+}
+
+.languages {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1vw 0vw
+}
+
+.html, .css, .js {
+    font-size: 0.7em;
+    font-weight: 400;
+    font-family: var(--ff-raleway);
+    color: var(--clr-5);
+    cursor: pointer
+}
+
+#html, #css, #js {
+    font-size: 1em;
+    font-weight: 500;
+    font-family: var(--ff-nobile);
+    color: var(--clr-6);
+    cursor: pointer
+}
+
+.top-btn {
+    font-size: 1.25em;
+    position:  fixed;
+    width: 2rem;
+    height: 2rem;
+    bottom: 3rem;
+    right: 1.5rem;
+    border: none;
+    border-radius: 0.6rem;
+    background: var(--clr-2);
+    color: var(--clr-5);
+    display: grid;
+    place-items: center;
+    animation: bounce 2s ease-in-out infinite;
+    visibility: hidden;
+    z-index: -100;
+}
+
+.show {
+    visibility: visible;
+    z-index: 100;
+}
+
+@keyframes bounce {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.5);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
