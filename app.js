@@ -91,7 +91,7 @@
     },
     {
         id: 11,
-        link: 'https://github.com/iyanuxn/Noto',
+        link: 'https://iyanuxn.github.io/Noto',
         linktitle: 'Colab work on Notes web app',
         repo: 'https://www.github.com/iyanuxn/Noto/',
         html: '9%',
@@ -100,7 +100,7 @@
     },
     {
         id: 12,
-        link: 'https://github.com/iyanuxn/calculator',
+        link: 'https://iyanuxn.github.io/calculator',
         linktitle: 'Calculator web app',
         repo: 'https://www.github.com/iyanuxn/calculator/',
         html: '9.6%',
