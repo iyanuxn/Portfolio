@@ -88,7 +88,26 @@
         html: '43.5%',
         css: '43.5%',
         js: '13.0%',
+    },
+    {
+        id: 11,
+        link: 'https://github.com/iyanuxn/Noto',
+        linktitle: 'Colab work on Notes web app',
+        repo: 'https://www.github.com/iyanuxn/Noto/',
+        html: '9%',
+        css: '22.6%',
+        js: '68.4%',
+    },
+    {
+        id: 12,
+        link: 'https://github.com/iyanuxn/calculator',
+        linktitle: 'Calculator web app',
+        repo: 'https://www.github.com/iyanuxn/calculator/',
+        html: '9.6%',
+        css: '74.6%',
+        js: '15.8%',
     }
+
  ];
 
 const article = document.querySelector('.project')
